@@ -1,0 +1,16 @@
+{
+  "name": "vue-cli-plugin-qiankun-portal",
+  "version": "1.0.0",
+  "description": "qiankun plugin for portal of vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-cli-plugin",
+    "qiankun",
+    "micro-frontend"
+  ],
+  "author": "Jenniferyingni <1097532862@qq.com>",
+  "license": "ISC"
+}

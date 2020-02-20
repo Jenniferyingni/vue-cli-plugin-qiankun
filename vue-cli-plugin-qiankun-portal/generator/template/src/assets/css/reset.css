@@ -1,0 +1,56 @@
+* {
+  font-family: "Microsoft Yahei", "PingFang SC" ,"Hiragino Sans GB", tahoma, arial;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+a {
+  color: #2d374b;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+p {
+  word-wrap: break-word;
+}

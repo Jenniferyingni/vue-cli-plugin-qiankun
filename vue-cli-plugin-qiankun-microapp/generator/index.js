@@ -1,5 +1,3 @@
-// const slaveMain = require('./main')
-
 module.exports = (api) => {
   const { port } = api.options
   const { projectName } = api.rootOptions
