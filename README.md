@@ -55,4 +55,4 @@ vue invoke vue-cli-plugin-qiankun-microapp
 ## Inspired
 
 - [qiankun](https://github.com/umijs/qiankun)
-- [vue-cli-plugin-qiankun](https://github.com/F-loat/vue-cli-plugin-qiankun）
+- [vue-cli-plugin-qiankun](https://github.com/F-loat/vue-cli-plugin-qiankun)
