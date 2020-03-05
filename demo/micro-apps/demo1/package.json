@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "vue-cli-service serve",
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 7101",
     "build": "vue-cli-service build"
   },
   "dependencies": {
