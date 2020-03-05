@@ -14,7 +14,7 @@
 
 - 主应用和子应用中基础的路由处理
 
-- IE下的兼容显示，关闭jsSandbox(待完善)
+- IE下的兼容显示(关闭jsSandbox,fetch 增加 pollyfill)
 
   
 

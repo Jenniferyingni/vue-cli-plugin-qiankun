@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import { registerMicroApps, setDefaultMountApp, start } from 'qiankun';
 import App from './App';
 import router from './router'
 import {fetch as fetchPolyfill} from 'whatwg-fetch'
+import { registerMicroApps, setDefaultMountApp, start } from 'qiankun';
 
 import './assets/css/reset.css'
 
