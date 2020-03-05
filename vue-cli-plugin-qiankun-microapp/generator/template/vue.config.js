@@ -23,6 +23,7 @@ module.exports = {
     // host: '0.0.0.0',
     hot: true,
     disableHostCheck: true,
+    historyApiFallback:true,
     overlay: {
       warnings: false,
       errors: true,
