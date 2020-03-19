@@ -14,6 +14,8 @@
 
 - 主应用和子应用中基础的路由处理
 
+- demo 中增加了父子组件之间通信的示例
+
 - IE下的兼容显示(关闭jsSandbox,fetch 增加 pollyfill)
 
   
