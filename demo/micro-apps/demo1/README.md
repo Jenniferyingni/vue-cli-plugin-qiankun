@@ -1,4 +1,4 @@
-# sub-app1
+# demo1
 
 ## Project setup
 
