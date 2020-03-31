@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-qiankun-microapp",
-  "version": "1.0.0",
-  "description": "qiankun plugin for micro-application of vue-cli",
+  "version": "1.0.1",
+  "description": "vue-cli3 plugin for qiankun micro-application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

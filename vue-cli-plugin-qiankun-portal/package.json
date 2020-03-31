@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-qiankun-portal",
   "version": "1.0.0",
-  "description": "qiankun plugin for portal of vue-cli",
+  "description": "vue-cli3 plugin for qiankun portal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
