@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-qiankun-portal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-cli3 plugin for qiankun portal",
   "main": "index.js",
   "scripts": {

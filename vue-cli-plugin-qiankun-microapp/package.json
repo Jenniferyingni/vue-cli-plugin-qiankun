@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-qiankun-microapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue-cli3 plugin for qiankun micro-application",
   "main": "index.js",
   "scripts": {

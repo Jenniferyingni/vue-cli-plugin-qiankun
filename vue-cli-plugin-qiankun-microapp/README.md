@@ -2,7 +2,7 @@
 
 ```
 vue create demo1
-cd portal
+cd demo1
 vue add vue-cli-plugin-qiankun-microapp
 ```
 
