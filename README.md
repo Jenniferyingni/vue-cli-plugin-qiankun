@@ -30,31 +30,22 @@
 
 主应用生成方式
 
-```javascript
-ue create portal-demo
-
-cd portal-demo
-
-npm install --save-dev file:../vue-cli-plugin-qiankun/vue-cli-plugin-qiankun-portal
-
-vue invoke vue-cli-plugin-qiankun-portal
+```
+vue create portal
+cd portal
+vue add vue-cli-plugin-qiankun-portal
 ```
 
 子应用生成方式
 
-```javascript
-vue create micro-app-demo
-
-cd micro-app-demo
-
-npm install --save-dev file:../vue-cli-plugin-qiankun/vue-cli-plugin-qiankun-microapp
-
-vue invoke vue-cli-plugin-qiankun-microapp
 ```
-
-
+vue create demo1
+cd portal
+vue add vue-cli-plugin-qiankun-microapp
+```
 
 ## Inspired
 
 - [qiankun](https://github.com/umijs/qiankun)
 - [vue-cli-plugin-qiankun](https://github.com/F-loat/vue-cli-plugin-qiankun)
+- [wl-micro-frontends](https://github.com/hql7/wl-micro-frontends)
