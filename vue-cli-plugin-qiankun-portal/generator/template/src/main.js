@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router'
+import store from './store'
 import {fetch as fetchPolyfill} from 'whatwg-fetch'
 import { registerMicroApps, setDefaultMountApp, start } from 'qiankun';
 
@@ -15,6 +16,7 @@ function render({ appContent, loading }) {
     app = new Vue({
       el: '#app',
       router,
+      store,
       data() {
         return {
           content: appContent,
@@ -52,11 +54,24 @@ const request = (url) => {
 
 initApp();
 
+let msg = {
+  data: {
+    userInfo: store.state.userInfo,
+    fns:[
+      function getMicro(){
+        return store.state.micro
+       }
+    ]
+  }
+};
 
 registerMicroApps(
-  [
-    { name: 'vue app1', entry: '//localhost:7101', render, activeRule: genActiveRule('/demo1') }
-  ],
+  [{ name: 'vue app1', 
+    entry: '//localhost:7101', 
+    render, 
+    activeRule: genActiveRule('/demo1'),
+    props:msg
+  }],
 );
 
 setDefaultMountApp('/demo1');

@@ -31,6 +31,11 @@ export async function bootstrap() {
 
 export async function mount(props) {
   console.log('props from main framework', props);
+  console.log(props.data.userInfo)
+  Array.isArray(props.data.fns) && props.data.fns.map(i => {
+    console.log(i)
+    Vue.prototype[`$${i.name}`] = i
+  });
   render();
 }
 
